@@ -15,6 +15,7 @@
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
+
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -26,6 +27,26 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="badge badge-warning navbar-badge">2</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">2 Items</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="###ICON"></i> Item 1
+            <span class="float-right text-muted text-sm">Rp.12.000</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="###ICON"></i> Item 2
+            <span class="float-right text-muted text-sm">Rp.12.000</span>
+          </a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
@@ -38,7 +59,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="#" class="brand-link">
+    <a href="{{route('dashboard')}}" class="brand-link">
       <img src="{{asset('assets/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Unix POS</span>
     </a>
@@ -51,7 +72,7 @@
           <img src="{{asset('assets/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Nama Admin</a>
         </div>
       </div>
 
@@ -61,7 +82,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('dashboard')}}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -69,7 +90,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('menuOrder')}}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Menu Order
@@ -77,7 +98,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('menuMgmt')}}" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
                 Menu Management
@@ -85,7 +106,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('income')}}" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 Pendapatan
@@ -93,7 +114,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('adminMgmt')}}" class="nav-link">
               <i class="nav-icon fas fa-tree"></i>
               <p>
                 Admin Management
@@ -129,31 +150,82 @@
     <!-- Main content -->
     <section class="content">
 
+    <div class="row justify-content-start">
+
       <!-- Default box -->
-      <div class="card">
+      <div class="card col-3 mx-3">
         <div class="card-header">
           <h3 class="card-title">Title</h3>
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-              <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
         </div>
         <div class="card-body">
-          Start creating your amazing application!
+          Lorem, ipsum dolor.
         </div>
-        <!-- /.card-body -->
-        <div class="card-footer">
-          Footer
-        </div>
-        <!-- /.card-footer-->
       </div>
+      <!-- /.box -->
+
+      <!-- Default box -->
+        <div class="card col-3 mx-3">
+           <div class="card-header">
+            <h3 class="card-title">Title</h3>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor.
+          </div>
+        </div>
+      <!-- /.box -->
+
+      <!-- Default box -->
+      <div class="card col-3 mx-3">
+        <div class="card-header">
+          <h3 class="card-title">Title</h3>
+        </div>
+        <div class="card-body">
+          Lorem, ipsum dolor.
+        </div>
+      </div>
+      <!-- /.box -->
+
+      <!-- Default box -->
+        <div class="card col-3 mx-3">
+           <div class="card-header">
+            <h3 class="card-title">Title</h3>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor.
+          </div>
+        </div>
+      <!-- /.box -->
+
+      <!-- Default box -->
+      <div class="card col-3 mx-3">
+        <div class="card-header">
+          <h3 class="card-title">Title</h3>
+        </div>
+        <div class="card-body">
+          Lorem, ipsum dolor.
+        </div>
+      </div>
+      <!-- /.box -->
+
+      <!-- Default box -->
+        <div class="card col-3 mx-3">
+           <div class="card-header">
+            <h3 class="card-title">Title</h3>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor.
+          </div>
+        </div>
+      <!-- /.box -->
+
+    </div>
+
       <!-- /.card -->
 
+      <button class="btn-primary mx-2 rounded">
+        Checkout
+      </button>
+      
     </section>
     <!-- /.content -->
   </div>
