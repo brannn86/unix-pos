@@ -162,7 +162,7 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-
+        @yield('body')
         <!-- Main row -->
         <div class="row">
 
