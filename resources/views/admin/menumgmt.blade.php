@@ -51,7 +51,7 @@
           <img src="{{asset('assets/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Nama Admin</a>
+          <a href="#" class="d-block">{{auth()->user()->name}}</a>
         </div>
       </div>
 
@@ -115,6 +115,7 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1>Menu Management</h1>
+            <button class="btn-primary">Tambah</button>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -129,32 +130,101 @@
     <!-- Main content -->
     <section class="content">
 
-      <!-- Default box -->
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Title</h3>
-
-          <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-              <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-              <i class="fas fa-times"></i>
-            </button>
+      <div class="row justify-content-start">
+  
+        <!-- Default box -->
+        <div class="card col-3 mx-3">
+          <div class="card-header">
+            <h3 class="card-title">Americano</h3>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor.
+          </div>
+          <div class="card-footer">
+            <button class="btn-danger">Hapus</button>
           </div>
         </div>
-        <div class="card-body">
-          Start creating your amazing application!
+        <!-- /.box -->
+  
+        <!-- Default box -->
+          <div class="card col-3 mx-3">
+             <div class="card-header">
+              <h3 class="card-title">Americano 2</h3>
+            </div>
+            <div class="card-body">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="card-footer">
+              <button class="btn-danger">Hapus</button>
+            </div>
+          </div>
+        <!-- /.box -->
+  
+        <!-- Default box -->
+        <div class="card col-3 mx-3">
+          <div class="card-header">
+            <h3 class="card-title">Title</h3>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor.
+          </div>
+          <div class="card-footer">
+            <button class="btn-danger">Hapus</button>
+          </div>
         </div>
-        <!-- /.card-body -->
-        <div class="card-footer">
-          Footer
+        <!-- /.box -->
+  
+        <!-- Default box -->
+          <div class="card col-3 mx-3">
+             <div class="card-header">
+              <h3 class="card-title">Title</h3>
+            </div>
+            <div class="card-body">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="card-footer">
+              <button class="btn-danger">Hapus</button>
+            </div>
+          </div>
+        <!-- /.box -->
+  
+        <!-- Default box -->
+        <div class="card col-3 mx-3">
+          <div class="card-header">
+            <h3 class="card-title">Title</h3>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor.
+          </div>
+          <div class="card-footer">
+            <button class="btn-danger">Hapus</button>
+          </div>
         </div>
-        <!-- /.card-footer-->
+        <!-- /.box -->
+  
+        <!-- Default box -->
+          <div class="card col-3 mx-3">
+             <div class="card-header">
+              <h3 class="card-title">Title</h3>
+            </div>
+            <div class="card-body">
+              Lorem, ipsum dolor.
+            </div>
+            <div class="card-footer">
+              <button class="btn-danger">Hapus</button>
+            </div>
+          </div>
+        <!-- /.box -->
+  
       </div>
-      <!-- /.card -->
-
-    </section>
+  
+        <!-- /.card -->
+  
+        <button class="btn-primary mx-2 rounded">
+          Simpan
+        </button>
+        
+      </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

@@ -72,7 +72,7 @@
           <img src="{{asset('assets/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Nama Admin</a>
+          <a href="#" class="d-block">{{auth()->user()->name}}</a>
         </div>
       </div>
 
@@ -155,10 +155,14 @@
       <!-- Default box -->
       <div class="card col-3 mx-3">
         <div class="card-header">
-          <h3 class="card-title">Title</h3>
+          <h3 class="card-title">Americano</h3>
         </div>
         <div class="card-body">
+          <img src="{{asset('assets/dist/kopi.png')}}" alt="kopi">
           Lorem, ipsum dolor.
+        </div>
+        <div class="card-footer">
+          <button class="btn-primary">Order</button>
         </div>
       </div>
       <!-- /.box -->
@@ -166,10 +170,13 @@
       <!-- Default box -->
         <div class="card col-3 mx-3">
            <div class="card-header">
-            <h3 class="card-title">Title</h3>
+            <h3 class="card-title">Americano 2</h3>
           </div>
           <div class="card-body">
             Lorem, ipsum dolor.
+          </div>
+          <div class="card-footer">
+            <button class="btn-primary">Order</button>
           </div>
         </div>
       <!-- /.box -->
@@ -182,6 +189,9 @@
         <div class="card-body">
           Lorem, ipsum dolor.
         </div>
+        <div class="card-footer">
+          <button class="btn-primary">Order</button>
+        </div>
       </div>
       <!-- /.box -->
 
@@ -192,6 +202,10 @@
           </div>
           <div class="card-body">
             Lorem, ipsum dolor.
+
+          </div>
+          <div class="card-footer">
+            <button class="btn-primary">Order</button>
           </div>
         </div>
       <!-- /.box -->
@@ -203,6 +217,10 @@
         </div>
         <div class="card-body">
           Lorem, ipsum dolor.
+
+        </div>
+        <div class="card-footer">
+          <button class="btn-primary">Order</button>
         </div>
       </div>
       <!-- /.box -->
@@ -214,6 +232,10 @@
           </div>
           <div class="card-body">
             Lorem, ipsum dolor.
+
+          </div>
+          <div class="card-footer">
+            <button class="btn-primary">Order</button>
           </div>
         </div>
       <!-- /.box -->
